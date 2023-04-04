@@ -11,7 +11,7 @@ public class SpringTestApplication {
 
 	@GetMapping
 	public String sayHello(){
-		return "Hello from Noflaye Tech ";
+		return "Hello from Noflaye Tech version 2";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringTestApplication.class, args);
