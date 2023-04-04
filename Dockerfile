@@ -10,3 +10,4 @@ WORKDIR /app
 COPY --from=builder /opt/app/target/*.jar /app/api.jar
 ENTRYPOINT ["java","-Dspring.profiles.active=dev","-jar","/app/api.jar"]
 
+EXPOSE 80
